@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenneth Chima - Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+ <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
+
+<script src="chimakenneth_validate.js" defer></script>
+
+
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="#home" class="logo">Kennexus</a>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" onclick="closeMenu()">Home</a></li>
+                <li><a href="#about" onclick="closeMenu()">About</a></li>
+                <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="home-content">
+            <h3>Hi, I'm</h3>
+            <h1>Kenneth Chima</h1>
+            <h2>I'm a <span class="highlight">Frontend Developer</span></h2>
+            <p>I specialize in creating beautiful, responsive, and user-friendly web interfaces. With over 1 year of experience in web development, I bring ideas to life through clean code and modern design principles.</p>
+            <div class="social-links">
+                <a href="https://github.com/kennethchima208-droid" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.fiverr.com/chimakenneth234" title="LinkedIn"><i class="fa-solid fa-florin-sign"></i></a>
+                <a href="https://wa.me/8133304638" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://x.com/kenny_p208" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+        <div class="home-image">
+            <div class="profile-pic">
+                <img src="me5.png" alt="Kenneth Chima" >
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Hello! I'm Kenneth Chima, a passionate web developer with over 1 year of experience in creating dynamic and responsive web applications. I specialize in frontend development but also have strong backend capabilities.</p>
+                <p>My journey in web development has equipped me with a diverse skill set and a deep understanding of modern web technologies. I'm dedicated to writing clean, efficient code and creating seamless user experiences.</p>
+                <p>I handle web design, frontend, and backend development, with a particular expertise in frontend technologies. I love turning complex problems into simple, beautiful, and intuitive designs.</p>
+            </div>
+            <div class="about-image">
+                <div class="profile-pic">
+                    <img src="me5.png" alt="About Kenneth">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Frontend</h3>
+                <ul class="skill-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Bootstrap</li>
+                    <li>Tailwind CSS</li>
+                    <li>jQuery</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Backend</h3>
+                <ul class="skill-list">
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                    <li>RESTful APIs</li>
+                    <li>Database Design</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Tools & Others</h3>
+                <ul class="skill-list">
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Version Control</li>
+                    <li>Responsive Design</li>
+                    <li>Web Design</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="image.png" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3>Tax Platform</h3>
+                    <p>A fully responsive Demo Tax platform built for secure authentication, seamless payment integration, and user-friendy tax management. Designed to ensure efficiency, accuracy, and a smooth user experience.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">Bootstrap</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">MySQL</span>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="image1.png" alt="Project 2">
+                </div>
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>A modern and responsive portfolio website showcasing creative design, smooth animations, amd well-structured content to highlight skills, project, and Professional experience.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">Tailwind</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="image2.png" alt="Project 3">
+                </div>
+                <div class="project-info">
+                    <h3>BIO Page</h3>
+                    <p>A modern and responsive landing page designed for personal branding, allowing users to share important links, contact details, and socai media profiles in one place.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <p>Let's connect and discuss your next project.</p>
+            
+            <form action="https://api.web3forms.com/submit" method="post" class="contact-form" id="form"  >
+                <!-- onsubmit="handleSubmit(event)" -->
+                
+           <input type="hidden" name="access_key" value="f5aba595-9b2a-46da-a507-c8ab94544a14">
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name"  placeholder="Your Name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Your@gmail.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="What's on your mind?" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">
+                    Send message
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                    </svg>
+                </button>
+            </form>
+
+            <script>
+const form = document.getElementById("form");
+const successMsg = document.getElementById("successMsg");
+
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+
+  const formData = new FormData(form);
+
+  const res = await fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    body: formData
+  });
+
+  if (res.ok) {
+    form.reset();
+    successMsg.style.display = "block";
+  }
+});
+</script>
+
+
+            <div class="other-contact">
+                <h3>Other Ways to Reach Me</h3>
+                <ul class="contact-list">
+                    <li>
+                        <strong>Email:</strong> 
+                        <a href="mailto:kennnethchima208@gmail.com">kennnethchima208@gmail.com</a>
+                    </li>
+                    <li>
+                        <strong>Github:</strong> 
+                        <a href="https://github.com/kennethchima208-droid" target="_blank">kennethchima208-droid</a>
+                    </li>
+                    <li>
+                        <strong>WhatsApp:</strong> 
+                        <a href="https://wa.me/8133304638">+234 81333 04638</a>
+                    </li>
+
+                    <li><strong>Avaliable for Freelancing.</strong></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="mailto:kennethchima208@gmail.com">Contact Us</a>
+            <a href="about.html">Privacy Policy</a>
+            <a href="#terms">Terms of Service</a>
+        </div>
+        <p>Built with <i class="fa-solid fa-heart"></i> using Html, Tailwind & JavaScript ©  2026 Kenneth chima</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
